@@ -1,0 +1,309 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgb(255, 250, 250);
+}
+nav{
+    height: 7vh;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav .social-media{
+    height: 4vh;
+    width: 10%;
+    margin:10px 0 0 30px;
+}
+nav .social-media a{
+    color: white;
+}
+nav .para{
+    width: 600px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+}
+nav .TopMenu{
+    width: 500px;
+    /* background-color: aqua; */
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+nav .TopMenu a{
+    margin: 5px;
+    padding: 7px 12px;
+    text-decoration: none;
+    background-color: aliceblue;
+    color: #1abc9c;
+    cursor: pointer;
+}
+.SecondBar{
+    width: 100%;
+    z-index: 10;
+    height: 11vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.SecondBar img{
+    width: 250px;
+    height:100%;
+}
+
+.SecondBar .social-media a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px 15px;
+     margin: 5px;
+     border-radius: 7px;
+     border: none;
+}
+.SecondBar .social-media a:hover{
+    color: black;
+    background-color: red;
+    transition: 0.6s ease;
+
+
+}
+.section{
+    height: 80vh;
+    background-color: cadetblue;
+    z-index: 1;
+}
+.bottomBar{
+   margin: 0 auto;
+    height: 6vh;
+    width: 80%;
+    background-color: darkgoldenrod;
+    overflow: hidden;
+}
+.about{
+    margin: 30px  auto;
+    height: 90vh;
+    width: 70%;
+   font-size: 16px;
+    display: block;
+}
+.about h1{
+    text-align: center;
+    
+}
+.about h1::after{
+    content: "DUCTION";
+    color: green;
+    text-align: center;
+}
+.about .bar{
+    width: 50px;
+    height: 3px;
+    background-color: green;
+    margin: 5px;
+}
+.about .LOGO{
+    display: flex;
+    margin-left: 370px;
+}
+.about .LOGO .bar{
+    margin-top:25px ;
+    margin-left: 5px;
+}
+.about img{
+    height: 50px;
+    width: 50px;
+    border-radius:50% ;
+}
+.logos{
+    width: 1349px;
+    height: 300px;
+    background-color: #2755e9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+@media (min-width: 768px)
+.col-sm-6 {
+    width: 50%;
+}
+@media (min-width: 768px)
+
+.logos .inner{
+    width: 240px;
+    height: 200px;
+    /* background-color: rgb(241, 241, 227); */
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.logos .inner img{
+    width: 60px;
+    height: 60px;
+    margin-left: 90px;
+}
+.logos .inner p{
+    font-size: 15px;
+}
+.logos .inner p::after{
+    content: "(MONTHLY)";
+    color: #44bd32;
+}
+.heading{
+    text-align: center;
+    color: blue;
+}
+#what{
+    margin-left: 500px;
+}
+.work{
+    
+    width: 100%;
+    height:100%;
+   display: flex;
+}
+.work
+ .works{
+    width: 100%x;
+    height: 100%;
+   align-items: center;
+   margin-left: 62px;
+    padding: 10px 0px;
+   
+}
+.heading .bar{
+    width: 50px;
+    height: 3px;
+    background-color: green;
+    margin: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.mission{
+    width: 700px;
+    height: 200px;
+    /* background-color: darkorange; */
+    margin: 10px;
+}
+.mission .smallbar{
+    width: 50px;
+    height: 3px;
+    background-color: fuchsia;
+    border-radius: 2px;
+}
+.mission .btns{
+    display: flex;
+    margin: 10px;
+    
+}
+.mission a{
+    text-decoration: none;
+    background-color: #c8d6e5;
+    padding: 20px 20px;
+    margin: 10px 5px;
+    width: 270px;
+    border:2px solid grey;
+}
+.news{
+    width: 300px;
+    height: 300px;
+    background-color: darkslategrey;
+    margin: 10px;
+}
+.gallery{
+    margin: 30px  auto;
+    height: 300px;
+    width: 90%;
+   font-size: 16px;
+    display: block;
+}
+.gallery h1{
+    text-align: center;
+    
+}
+.gallery h1::after{
+    content: "GALLERY";
+    color: green;
+    text-align: center;
+}
+.gallery .bar{
+    width: 50px;
+    height: 3px;
+    background-color: green;
+    margin: 5px;
+}
+.gallery .LOGO{
+    width: 200px;
+    display: flex;
+    margin-left: 500px;
+}
+.gallery .LOGO .bar{
+    margin-top:25px ;
+    margin-left: 5px;
+}
+.gallery #pic{
+    height: 50px;
+    width: 50px;
+    border-radius:50% ;
+}
+.gall {
+    margin-left: 25px;
+}
+footer{
+    background-color: #222f3e;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50%;
+}
+.contact{
+    width: 400px;
+    height: 200px;
+    Margin-top:  60px;
+    margin-left: 100px;
+    color: #8395a7;
+}
+.contact i{
+    color: #54a0ff;
+}
+.links{
+    width: 290px;
+    height: 60px;
+    margin-top:  20px;
+    margin-left:20px ;
+    border-bottom:1px solid violet;
+    padding-top:30px ;
+    color: white;
+}
+
+.cont{
+    width: 220px;
+    height: 300px;
+    margin-top:  50px;
+    margin-left: 20px; 
+    color: white;
+}
+.cont i{
+    background-color: #2e86de;
+    padding: 7px ;
+    border-radius: 50%;
+    margin-top: 5px;
+    cursor: pointer;
+    color: white;
+}
